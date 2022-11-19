@@ -23,3 +23,7 @@ pip install -r requirments.txt
 
 ./scripts/serve.sh
 ```
+
+## deploy
+
+https://dash.cloudflare.com
