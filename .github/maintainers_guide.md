@@ -38,3 +38,5 @@ nav:
 ## deploy
 
 https://dash.cloudflare.com
+
+pushing to master will automaticly deploy to: https://recipes-z18.pages.dev/
