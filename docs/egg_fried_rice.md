@@ -2,7 +2,7 @@
 
 ## ingrediance
 
-- egg
+- eggs
 - rice
 - fry
 

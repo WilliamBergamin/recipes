@@ -1,8 +1,8 @@
 site_name: Recipes
 
 nav:
-    - Home: index.md
-    - Egg Fried Rice: egg_fried_rice.md
+    - welcome: index.md
+    - egg fried rice: egg_fried_rice.md
 theme:
     name: null
     custom_dir: 'theme/'

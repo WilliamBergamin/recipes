@@ -28,30 +28,37 @@
 </head>
 
 <body>
-
-    {% if nav|length>1 %}
-    <div class="sidebar">
-        {% for nav_item in nav %}
-        <li class="{% if nav_item.active %}current{% endif %}">
+    <div class="grid-container">
+        {% if nav|length>1 %}
+        <div class="sidebar" id="sidebar">
+            <a href="javascript:void(0);" class="icon" onclick="sideBarAction()">&#9776;</a>
+            {% for nav_item in nav %}
             <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
-        </li>
-        {% endfor %}
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if page and page.meta and page.meta.source %}
+        <div class="source-links">
+            {% for filename in page.meta.source %}
+            <span class="label label-primary">{{ filename }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <div class="main-content">
+            {% if page and page.content %}{{ page.content }}{% endif %}
+        </div>
     </div>
-    {% endif %}
-
-    {% if page and page.meta and page.meta.source %}
-    <div class="source-links">
-        {% for filename in page.meta.source %}
-        <span class="label label-primary">{{ filename }}</span>
-        {% endfor %}
-    </div>
-    {% endif %}
-
-    <div class="container">
-        {% if page and page.content %}{{ page.content }}{% endif %}
-    </div>
-
-
 </body>
+
+<script>
+    function sideBarAction() {
+        var x = document.getElementById("sidebar");
+        if (x.className === "sidebar") {
+            x.className += " responsive";
+        } else {
+            x.className = "sidebar";
+        }
+    }
+</script>
 
 </html>
