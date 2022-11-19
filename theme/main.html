@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {%- block site_meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if config.site_description %}
+    <meta name="description" content="{{ config.site_description }}">{% endif %}
+    {% if config.site_author %}
+    <meta name="author" content="{{ config.site_author }}">{% endif %}
+    {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
+    {%- endblock %}
+
+    {%- block htmltitle %}
+    <title>{% if page and page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+    {%- endblock %}
+
+    {%- block styles %}
+    {%- for path in extra_css %}
+    <link href="{{ path | url }}" rel="stylesheet">
+    {%- endfor %}
+    {%- endblock %}
+
+    {%- block extrahead %}{% endblock %}
+</head>
+
+<body>
+
+    {% if nav|length>1 %}
+    <div class="sidebar">
+        {% for nav_item in nav %}
+        <li class="{% if nav_item.active %}current{% endif %}">
+            <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+        </li>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page and page.meta and page.meta.source %}
+    <div class="source-links">
+        {% for filename in page.meta.source %}
+        <span class="label label-primary">{{ filename }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="container">
+        {% if page and page.content %}{{ page.content }}{% endif %}
+    </div>
+
+
+</body>
+
+</html>
