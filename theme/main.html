@@ -31,11 +31,11 @@
     <div class="grid-container">
         {% if nav|length>1 %}
         <div class="sidebar" id="sidebar">
-            <a href="javascript:void(0);" class="icon" onclick="sideBarAction()">&#9776;</a>
             {% for nav_item in nav %}
             <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
             {% endfor %}
         </div>
+        <button class="side-button" role="button" onclick="sideBarAction()">&#9776;</button>
         {% endif %}
         {% if page and page.meta and page.meta.source %}
         <div class="source-links">
