@@ -3,6 +3,7 @@ site_name: Recipes
 nav:
     - welcome: index.md
     - egg fried rice: egg_fried_rice.md
+    - tartar: tartar.md
 theme:
     name: null
     custom_dir: 'theme/'

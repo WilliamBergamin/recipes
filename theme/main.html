@@ -30,12 +30,13 @@
 <body>
     <div class="grid-container">
         {% if nav|length>1 %}
+        <input type="checkbox" id="toggle"/>
+        <label class="side-button" for="toggle"></label>
         <div class="sidebar" id="sidebar">
             {% for nav_item in nav %}
-            <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+            <a href="{{ nav_item.url|url }}" for="toggle">{{ nav_item.title }}</a>
             {% endfor %}
         </div>
-        <button class="side-button" role="button" onclick="sideBarAction()">&#9776;</button>
         {% endif %}
         {% if page and page.meta and page.meta.source %}
         <div class="source-links">
@@ -49,16 +50,4 @@
         </div>
     </div>
 </body>
-
-<script>
-    function sideBarAction() {
-        var x = document.getElementById("sidebar");
-        if (x.className === "sidebar") {
-            x.className += " responsive";
-        } else {
-            x.className = "sidebar";
-        }
-    }
-</script>
-
 </html>
