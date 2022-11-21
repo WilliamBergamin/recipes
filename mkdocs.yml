@@ -4,6 +4,7 @@ nav:
     - welcome: index.md
     - egg fried rice: egg_fried_rice.md
     - tartar: tartar.md
+    - goose sous-vide: sous_vide_goose.md
 theme:
     name: null
     custom_dir: 'theme/'

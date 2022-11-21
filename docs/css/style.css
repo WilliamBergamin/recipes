@@ -94,6 +94,10 @@
     opacity: 1;
 }
 
+#toggle:checked~.side-button {
+    background-color: transparent;
+}
+
 #toggle:checked~.side-button:before {
     transform: rotate(225deg);
 }
