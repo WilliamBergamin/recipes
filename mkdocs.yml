@@ -1,10 +1,10 @@
 site_name: Recipes
 
 nav:
-    - welcome: index.md
-    - egg fried rice: egg_fried_rice.md
-    - tartar: tartar.md
-    - goose sous-vide: sous_vide_goose.md
+    - Welcome: index.md
+    - Egg Fried Rice: egg_fried_rice.md
+    - Tartare: tartare.md
+    - Goose Sous-vide: sous_vide_goose.md
 theme:
     name: null
     custom_dir: 'theme/'

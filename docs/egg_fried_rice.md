@@ -1,22 +1,26 @@
 # Egg Fried Rice
 
-## ingrediance
+---
+
+## Ingredients  
+
+*2 pers.*
 
 - 2 eggs
-- 1/2 cup of minute rice (left overnight in fridge)
-- 1 teaspoon Wshishtishire sauce
-- 3 tablespoon soy sauce
-- 2 teaspoon sesami oil
+- 1/2 cup of cooked minute rice (left overnight in the fridge is better)
+- 1 tsp Worcestershire sauce
+- 3 tbsp soy sauce
+- 2 tsp sesame oil
 - 5 drops of hot sauce
-- 2-3 tablespoonse of peanut butter
-- sesami seeds
+- 2-3 tbsp crunchy peanut butter
+- Sesame seeds
 
-## steps
+## Steps
 
-1. In a large pan cold pan, preferably a woke, add the seasamy oil and turn on stove to medium heat.
-2. Add the eggs to the pan and scramble them with a wooden spatual.
-3. When eggs are slightly cooked add the rice and scramble.
-4. Push the egg and rice mixture to the edge of the pan and add, in the center of your pan, the soy souce, wchichtitairer sauce, and hot sauce.
-5. Mix all the ingredience in your pan and turn of the stove.
-6. Add the peanut butter and sesami seeds and mix in a folding motion
-7. serve in bol
+1. In a large pan, preferably a wok, add the sesame oil and turn on the stove to medium heat;
+2. Add the eggs to the pan and scramble them with a wooden spatula;
+3. When the eggs are slightly cooked, add the rice and mix together;
+4. In the middle of the pan, create a space to add the soy sauce, Worcestershire sauce and hot sauce;
+5. Mix all the ingredients in your pan and turn off the stove;
+6. Add the peanut butter and sesame seeds;
+7. Serve in bowl and add Tabasco sauce to taste.
