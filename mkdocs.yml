@@ -6,7 +6,8 @@ nav:
     - Ceviche: ceviche.md
     - Chili: chili.md
     - Egg Fried Rice: egg_fried_rice.md
-    - Goose Sous-vide: sous_vide_goose.md 
+    - Pho Soup: pho_soup.md
+    - Goose Sous-vide: goose_sous_vide.md 
     - Tartare: tartare.md
 theme:
     name: null

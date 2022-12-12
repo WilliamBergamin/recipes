@@ -28,4 +28,3 @@
 4. Add the plantbased meat;
 5. Set the slow cooker to cook for approximately 6 hours;
 6. Enjoy with fresh coriander and sour cream (!)
-
