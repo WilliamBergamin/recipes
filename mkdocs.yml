@@ -1,7 +1,7 @@
 site_name: Recipes
 
 nav:
-    - Welcome: 0_welcome.md # 0 so that its at the top of the folder
+    - Welcome: index.md # 0 so that its at the top of the folder
     - Bone Marrow: bone_marrow.md
     - Ceviche: ceviche.md
     - Chili: chili.md
