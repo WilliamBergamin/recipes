@@ -14,6 +14,7 @@
 - 1 tsp of salt
 - 1 1/2 thai chili peppers, minced
 - 2 cherry tomatoes diced
+- 1 french onion, minced
 
 ## Steps
 

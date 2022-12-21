@@ -7,6 +7,3 @@ It is our comfort food, but also some recipes we like making when having people 
 ## Purpose
 
 This project is intended for personal use but anyone is welcome to check it out and try some recipes. Welcome in our world!
-
-
-
