@@ -7,7 +7,10 @@ nav:
     - Chili: chili.md
     - Egg Fried Rice: egg_fried_rice.md
     - Fish Tacos: fish_tacos.md
+    - Pesto: pesto.md
     - Pho Soup: pho_soup.md
+    - Poke Bowl: poke_bowl.md
+    - Roasted gnocchi: roasted_gnocchi.md
     - Goose Sous-vide: goose_sous_vide.md 
     - Tartare: tartare.md
 theme:
